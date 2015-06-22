@@ -1,6 +1,11 @@
 # Sortably
 A simple meteor sortable package that makes a list drag-and-drop sortable. Inspired by [Sortable](https://github.com/RubaXa/Sortable/tree/master/meteor) by [RubaXa](https://github.com/RubaXa) and [Sortable Lists in Meteor using JQuery UI](http://blog.differential.com/sortable-lists-in-meteor-using-jquery-ui/) by Bruce Hubbard at Differential.
 
+## Installation
+```
+meteor add alcarus:sortably
+```
+
 
 ## Usage
 Simply add the following in your `onRendered` callback.
