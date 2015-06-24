@@ -30,12 +30,14 @@ Sortably = function (collectionName) {
 
 };
 
-Sortably.create = function (listElement, collectionName) {
+Sortably.create = function (collectionName, listElement, options) {
 	var sortably = new Sortably(collectionName);
 
-	listElement.sortable({
+	options = _.extend(options || {}, {
 		stop: function (event, ui) {
 			sortably.reorder(ui.item);
 		}
 	});
+
+	listElement.sortable(options);
 };
