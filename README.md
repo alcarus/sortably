@@ -42,3 +42,6 @@ Depends on the following packages:
 
 ## Copyright
 Copyright 2015 [Alcarus](https://www.alcarus.com), LLC.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/alcarus/sortably/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
